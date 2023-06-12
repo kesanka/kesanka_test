@@ -5,10 +5,11 @@ import NewPost from './NewPost/NewPost';
 
 const MyPosts = () => {
   return (
-
-    <div>My posts
+    <div>
+      My posts
       <NewPost />
-      <Post />
+      <Post message = 'ЭЩКЕРЕ' likeCount = '2'/>
+      <Post message = 'vsee norm' likeCount = '0'/>
     </div>
 
   );

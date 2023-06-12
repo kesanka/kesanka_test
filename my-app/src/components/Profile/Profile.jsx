@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
   return (
-    <div className={style.content}>
+    <div>
       <div>
         <img className = {style.header} src='https://funkylife.in/wp-content/uploads/2021/08/good-evening-image-from-funkylife-27.jpg' />
       </div>
