@@ -1,0 +1,10 @@
+.item{
+  font-size: 64pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blueviolet;
+}
+
+.emojiTag{
+  width: 64px;
+  height: 64px;
+}
