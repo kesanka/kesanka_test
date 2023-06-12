@@ -1,0 +1,24 @@
+.content{
+    grid-area: c;
+    background-color: blue;
+  }
+
+.header {
+  width: 1200px;
+  height: 600px;
+}
+
+.avatar{
+  width: 128px;
+  height: 128px;
+ 
+}
+
+.avatar.active{
+  border: solid black;
+}
+
+.avatar.disabled{
+  border: solid red;
+}
+  
