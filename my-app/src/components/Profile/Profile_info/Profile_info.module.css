@@ -1,0 +1,10 @@
+.profile_info_all {
+  display: grid;
+
+  grid-template-areas:
+    'header header'
+    'avatar about';
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: 3fr 100px;
+
+}

@@ -1,0 +1,8 @@
+.item {
+  grid-area: header;
+}
+
+.header {
+  width: 1200px;
+  height: 600px;
+}

@@ -1,17 +1,13 @@
 import React from 'react'
 import style from './Profile.module.css'
 import MyPosts from './MyPosts/MyPosts';
+import Profile_info from './Profile_info/Profile_info'
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div>
-      <div>
-        <img className = {style.header} src='https://funkylife.in/wp-content/uploads/2021/08/good-evening-image-from-funkylife-27.jpg' />
-      </div>
-      <div>
-        <img className = {`${style.avatar} ${style.active}`} src='https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3' />
-      </div>
-     <MyPosts />
+      <Profile_info />
+      <MyPosts />
 
     </div>
   );

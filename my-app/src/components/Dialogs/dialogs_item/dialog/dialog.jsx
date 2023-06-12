@@ -3,10 +3,12 @@ import style from './dialog.module.css'
 import { NavLink } from 'react-router-dom';
 
 const item = (props) => {
-  debugger
+
+  let path = `/dialogs/${props.dialog_id}`
+
   return (
     <div className={style.dialog + ' ' + style.active}>
-       <NavLink to = {`/dialogs/${props.dialog_id}`}> {props.dialog_name} </NavLink>
+      <NavLink to={path} className={navData => navData.isActive ? style.active : style.item}> {props.dialog_name} </NavLink>
     </div>
   );
 

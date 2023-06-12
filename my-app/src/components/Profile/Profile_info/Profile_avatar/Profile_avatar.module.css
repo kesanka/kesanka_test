@@ -1,0 +1,17 @@
+.item {
+  grid-area: avatar;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+
+}
+
+.avatar.active {
+  border: solid black;
+}
+
+.avatar.disabled {
+  border: solid red;
+}
