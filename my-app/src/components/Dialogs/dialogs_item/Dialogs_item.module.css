@@ -1,0 +1,8 @@
+.dialog_item{
+  grid-area: dialog;
+  border: solid black 2px;
+}
+
+.dialog_item .active{
+  color: gold;
+}

@@ -1,0 +1,4 @@
+.message_item{
+  grid-area: message;
+  border: solid black 2px;
+}

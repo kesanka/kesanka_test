@@ -17,15 +17,17 @@ const App = (props) => {
       <div className='app-wrapper'>
         <Header />
         <NavBar />
+
         <div className='app-wrapper-content'>
           <Routes>
-            <Route path='/dialogs' Component={Dialogs} />
-            <Route path='/profile' Component={Profile} />
-            <Route path='/news' Component={News} />
-            <Route path='/music' Component={Music} />
-            <Route path='/settings' Component={Settings} />
+            <Route exact path='/dialogs' Component={Dialogs} />
+            <Route exact path='/profile' Component={Profile} />
+            <Route exact path='/news' Component={News} />
+            <Route exact path='/music' Component={Music} />
+            <Route exact path='/settings' Component={Settings} />
           </Routes>
         </div>
+
       </div>
     </BrowserRouter>
   );
